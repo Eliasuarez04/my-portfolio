@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 const Home = () => {
   return (
@@ -7,7 +8,8 @@ const Home = () => {
       <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
         Desarrollador frontend apasionado por crear interfaces modernas, creativas y funcionales.
       </p>
-      <div className="flex justify-center gap-6 flex-wrap">
+
+      <div className="flex justify-center gap-6 flex-wrap mb-8">
         <a 
           href="https://unitechn-my.sharepoint.com/:b:/g/personal/eliasuarez04_unitec_edu/ET7WGmisEg5Cl405rlhOJGoByigKesooLLA5bgsvOwC_bw?e=4eWIUR" 
           target="_blank" 
@@ -22,6 +24,18 @@ const Home = () => {
         >
           Ver Proyectos
         </Link>
+      </div>
+
+      <div className="flex justify-center gap-6 text-3xl">
+        <a href="https://github.com/Eliasuarez04" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/el%C3%ADas-antonio-su%C3%A1rez-ramos-426411242/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+          <FaLinkedin />
+        </a>
+        <a href="mailto:eliassuarezramos@gmail.com" className="hover:text-gray-300">
+          <FaEnvelope />
+        </a>
       </div>
     </section>
   )
