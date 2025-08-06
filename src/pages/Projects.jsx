@@ -7,7 +7,13 @@ const Projects = () => {
       github: 'https://github.com/Eliasuarez04/todo-app',
       demo: 'https://todo-app-kappa-two-36.vercel.app/',
     },
-    // Aquí irán más proyectos después
+     {
+    title: 'Weather App',
+    description: 'Consulta del clima por ciudad o geolocalización usando la API de OpenWeather.',
+    tech: ['React', 'TailwindCSS', 'API', 'Geolocalización'],
+    github: 'https://github.com/Eliasuarez04/weather-app',
+    demo: 'https://weather-app-one-weld-42.vercel.app/',
+  },
   ]
 
   return (
