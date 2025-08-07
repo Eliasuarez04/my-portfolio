@@ -9,6 +9,10 @@ const projectLinks = [
     github: 'https://github.com/Eliasuarez04/weather-app',
     demo: 'https://weather-app-one-weld-42.vercel.app/',
   },
+  {
+    github: 'https://github.com/Eliasuarez04/ecommerce-app',
+    demo: 'https://ecommerce-app-dusky-gamma.vercel.app/',
+  }
 ]
 
 const Projects = () => {

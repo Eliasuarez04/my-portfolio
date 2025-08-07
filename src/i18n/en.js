@@ -54,6 +54,13 @@ export default {
       tech: ['React', 'TailwindCSS', 'API', 'Geolocation'],
       demo: 'View Demo',
       code: 'View Code',
+    },
+    {
+      title: 'Mini E-commerce App',
+      description: 'Online shop built with React, shopping cart, responsive design and product quick view.',
+      tech: ['React', 'TailwindCSS', 'Global state', 'Local JSON'],
+      demo: 'View Demo',
+      code: 'View Code',
     }
   ]
 },

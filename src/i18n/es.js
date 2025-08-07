@@ -54,7 +54,15 @@ export default {
       tech: ['React', 'TailwindCSS', 'API', 'Geolocalización'],
       demo: 'Ver Demo',
       code: 'Ver Código',
+    },
+    {
+      title: 'Mini E-commerce App',
+      description: 'Aplicación de tienda online con React, carrito de compras, diseño responsivo y vista rápida de productos.',
+      tech: ['React', 'TailwindCSS', 'Estado global', 'JSON local'],
+      demo: 'Ver Demo',
+      code: 'Ver Código',
     }
+
   ]
 },
   blog: {
