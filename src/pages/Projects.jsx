@@ -1,3 +1,5 @@
+import { useLanguage } from '../context/LanguageContext'
+
 const projects = [
   {
     title: 'To-Do App',
@@ -16,9 +18,13 @@ const projects = [
 ]
 
 const Projects = () => {
+  const { translations } = useLanguage()
+
   return (
     <section className="max-w-5xl mx-auto px-6 py-16 animate-fade-in">
-      <h2 className="text-4xl font-bold text-center text-blue-700 mb-12">Proyectos Destacados</h2>
+      <h2 className="text-4xl font-bold text-center text-blue-700 mb-12">
+        {translations.projects.title}
+      </h2>
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-white p-6 rounded-lg shadow border hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
@@ -30,22 +36,8 @@ const Projects = () => {
               ))}
             </div>
             <div className="flex gap-4">
-              <a
-                href={project.demo}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition"
-              >
-                Ver Demo
-              </a>
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition"
-              >
-                Ver Código
-              </a>
+              <a href={project.demo} target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">Ver Demo</a>
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition">Ver Código</a>
             </div>
           </div>
         ))}
