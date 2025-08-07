@@ -17,12 +17,46 @@ export default {
     paragraph: 'Soy Elias Suárez, estudiante de Ingeniería en Informática con experiencia en soporte técnico, desarrollo web y tecnologías modernas como React, Vue, Node.js, entre otras.',
     stack: 'Stack principal',
     experience: 'Experiencia práctica',
+    experienceText: 'He trabajado en soporte técnico en la Universidad UNITEC, brindando asistencia en hardware, software y redes. También tengo experiencia desarrollando aplicaciones y manejando inventarios.',
     skills: 'Habilidades blandas',
     education: 'Formación y Certificaciones',
+    stackItems: [
+      'JavaScript (ES6+)',
+      'React, Vue, Angular',
+      'HTML5, CSS3, TailwindCSS, Bootstrap',
+      'Node.js, PHP'
+    ],
+    skillItems: [
+      'Trabajo en equipo',
+      'Comunicación efectiva',
+      'Adaptabilidad',
+      'Aprendizaje continuo'
+    ],
+    educationItems: [
+      'Ingeniería en Informática (CEUTEC)',
+      'Scrum, Python, Excel, Inglés B1',
+      'Soporte de Sistemas, Microsoft Office'
+    ]
   },
   projects: {
-    title: 'Proyectos Destacados',
-  },
+  title: 'Proyectos Destacados',
+  items: [
+    {
+      title: 'To-Do App',
+      description: 'Aplicación para gestionar tareas con React y localStorage.',
+      tech: ['React', 'TailwindCSS', 'localStorage'],
+      demo: 'Ver Demo',
+      code: 'Ver Código',
+    },
+    {
+      title: 'Weather App',
+      description: 'Consulta del clima por ciudad o geolocalización usando la API de OpenWeather.',
+      tech: ['React', 'TailwindCSS', 'API', 'Geolocalización'],
+      demo: 'Ver Demo',
+      code: 'Ver Código',
+    }
+  ]
+},
   blog: {
     title: 'Blog',
     readMore: 'Leer más →',
