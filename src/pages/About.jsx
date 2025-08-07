@@ -2,7 +2,7 @@ import { FaCode, FaLaptopCode, FaLightbulb, FaUsers } from 'react-icons/fa'
 
 const About = () => {
   return (
-    <section className="max-w-4xl mx-auto px-6 py-16">
+    <section className="max-w-4xl mx-auto px-6 py-16 animate-fade-in">
       <h2 className="text-4xl font-bold text-center mb-10 text-blue-700">Sobre mí</h2>
 
       <p className="text-lg mb-6 text-gray-700 text-center">

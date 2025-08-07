@@ -3,7 +3,7 @@ import posts from '../data/blogData'
 
 const Blog = () => {
   return (
-    <section className="max-w-4xl mx-auto px-6 py-16">
+    <section className="max-w-4xl mx-auto px-6 py-16 animate-fade-in">
       <h2 className="text-4xl font-bold text-center text-blue-700 mb-12">Blog</h2>
       <div className="space-y-6">
         {posts.map((post, index) => (

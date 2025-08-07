@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section>
+    <section className="max-w-2xl mx-auto px-6 py-16 animate-fade-in">
       <h2 className="text-3xl font-semibold mb-4">Contacto</h2>
       <p>¿Quieres trabajar conmigo o tienes alguna pregunta? ¡Contáctame!</p>
     </section>
