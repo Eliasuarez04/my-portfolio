@@ -61,7 +61,15 @@ export default {
       tech: ['React', 'TailwindCSS', 'Global state', 'Local JSON'],
       demo: 'View Demo',
       code: 'View Code',
+    },
+    {
+      title: 'Admin Dashboard',
+      description: 'Stats panel with React, TailwindCSS and interactive charts using Recharts.',
+      tech: ['React', 'TailwindCSS', 'Recharts', 'Dashboard UI'],
+      demo: 'View Demo',
+      code: 'View Code'
     }
+
   ]
 },
   blog: {

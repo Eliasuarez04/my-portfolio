@@ -11,9 +11,14 @@ const projectLinks = [
   },
   {
     github: 'https://github.com/Eliasuarez04/ecommerce-app',
-    demo: 'https://ecommerce-app-theta-bay.vercel.app/',
+    demo: 'https://ecommerce-app-dusky-gamma.vercel.app/',
+  },
+  {
+    github: 'https://github.com/Eliasuarez04/dashboard-app',
+    demo: 'https://dashboard-app-omega-murex.vercel.app/',
   }
 ]
+
 
 const Projects = () => {
   const { translations } = useLanguage()
