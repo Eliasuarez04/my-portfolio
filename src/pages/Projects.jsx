@@ -11,7 +11,7 @@ const projectLinks = [
   },
   {
     github: 'https://github.com/Eliasuarez04/ecommerce-app',
-    demo: 'https://ecommerce-app-dusky-gamma.vercel.app/',
+    demo: 'https://ecommerce-app-theta-bay.vercel.app/',
   }
 ]
 
