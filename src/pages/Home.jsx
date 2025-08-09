@@ -23,7 +23,7 @@ const Home = () => {
         <a href="https://github.com/Eliasuarez04" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition">
           <FaGithub />
         </a>
-        <a href="https://www.linkedin.com/in/el%C3%ADas-antonio-su%C3%A1rez-ramos-426411242/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition">
+        <a href="https://www.linkedin.com/in/elias-suarez-dev/?trk=opento_sprofile_details" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition">
           <FaLinkedin />
         </a>
         <a href="mailto:eliassuarezramos@gmail.com" className="hover:text-gray-300 transition">
